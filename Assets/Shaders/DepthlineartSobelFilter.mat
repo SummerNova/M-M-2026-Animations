@@ -37,7 +37,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DepthSensitivity: 2
+    - _Debug: 0
+    - _DepthSensitivity: 1.5
     - _EdgeSize: 1
     - _ScreenHeightRef: 1080
     - _normalSensitivity: 0.9
