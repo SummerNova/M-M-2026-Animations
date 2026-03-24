@@ -23,7 +23,7 @@ static float sobelYKernel[9] =
     -1, -2, -1
 };
 
-void SobelEdgeSample_float(float4 UV, float2 TexelSize, float depthSensitivity,float normalSensitivity, out float Edge)
+void SobelEdgeSample_float(float4 UV, float2 TexelSize, float depthSensitivity, float normalSensitivity, float3 viewDir, out float Edge, out float angle)
 {
     float SobelX = 0;
     float SobelY = 0;
@@ -33,19 +33,23 @@ void SobelEdgeSample_float(float4 UV, float2 TexelSize, float depthSensitivity,f
     float SobelNormalY = 0;
     
     float3 middleNormal = SHADERGRAPH_SAMPLE_SCENE_NORMAL(UV);
-    
+    angle = dot(middleNormal, viewDir);
     [unroll]
     for (int i = 0; i < 9; i++)
     {
-        //float2 sampleUV = clamp(UV.xy + sobelSamplePoints[i] * TexelSize, 0.0, 1.0);
-        float depth = SHADERGRAPH_SAMPLE_SCENE_DEPTH(float4(UV.xy + sobelSamplePoints[i] * TexelSize.xy,UV.zw));
-        //float ddepth = clamp(abs(middleDepth - depth) / (sobelSamplePoints[i].x * sobelSamplePoints[i].x + sobelSamplePoints[i].y + sobelSamplePoints[i].y),0,1);
+        float3 normal = SHADERGRAPH_SAMPLE_SCENE_NORMAL(float4(UV.xy + sobelSamplePoints[i] * TexelSize.xy, UV.zw));
+       
+        //float faceingcamera = dot(normal, viewDir);
+        
+        
+        float depth = SHADERGRAPH_SAMPLE_SCENE_DEPTH(float4(UV.xy + sobelSamplePoints[i] * TexelSize.xy * smoothstep(0.95,0.99,angle), UV.zw));
+        
+        
         SobelX += depth * sobelXKernel[i] * depthSensitivity;
         SobelY += depth * sobelYKernel[i] * depthSensitivity;
         
-        float3 normal = SHADERGRAPH_SAMPLE_SCENE_NORMAL(float4(UV.xy + sobelSamplePoints[i] * TexelSize.xy, UV.zw));
         float dotcalc = 1 - step(dot(normal, middleNormal), normalSensitivity);
-        //float ddepth = clamp(abs(middleDepth - depth) / (sobelSamplePoints[i].x * sobelSamplePoints[i].x + sobelSamplePoints[i].y + sobelSamplePoints[i].y),0,1);
+        
         SobelNormalX += dotcalc * sobelXKernel[i];
         SobelNormalY += dotcalc * sobelYKernel[i];
     }
