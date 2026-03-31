@@ -23,6 +23,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _CrosshatchAOTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _CrosshatchTexture:
         m_Texture: {fileID: 2800000, guid: 4783a2a49ccda634081cd65b36bb22dd, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -41,7 +45,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _CrosshatchRepetition: 10
+    - _CrosshatchRepetition: 20
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1

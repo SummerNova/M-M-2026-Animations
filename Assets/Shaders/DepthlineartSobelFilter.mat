@@ -39,7 +39,7 @@ Material:
     m_Floats:
     - _Debug: 0
     - _DepthSensitivity: 1.5
-    - _EdgeSize: 1
+    - _EdgeSize: 2
     - _ScreenHeightRef: 1080
     - _normalSensitivity: 0.9
     m_Colors:
