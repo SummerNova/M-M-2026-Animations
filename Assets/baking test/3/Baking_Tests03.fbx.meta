@@ -9,6 +9,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Checker 02.001
     second: {fileID: 2100000, guid: b2e9c1fcc68ab3847a527464120bda3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: large_table
+    second: {fileID: 2100000, guid: e43c24c91a1a80744a1584dd740e342b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
