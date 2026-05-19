@@ -2150,7 +2150,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c43476b1421f0d04488c35e63577f2be, type: 3}
       propertyPath: m_Name
-      value: Final_TEST_07
+      value: wine-animation
       objectReference: {fileID: 0}
     - target: {fileID: 1078487425294387985, guid: c43476b1421f0d04488c35e63577f2be, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3957,7 +3957,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cf9930dd40715504a9f7a2dc9b13ff79, type: 3}
       propertyPath: m_Name
-      value: Syringe_TEST01
+      value: syringe-animation
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5818,7 +5818,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 643558187f1ac5e4ea8ac0ac4788be4e, type: 3}
       propertyPath: m_Name
-      value: spider-web-animation-TEST07
+      value: spider-web-animation
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
