@@ -39,9 +39,10 @@ Material:
     m_Floats:
     - _Debug: 0
     - _DepthSensitivity: 1.5
-    - _EdgeSize: 2
+    - _EdgeSize: 1
     - _ScreenHeightRef: 1080
     - _normalSensitivity: 0.9
+    - _steps: 10
     m_Colors:
     - _LineartColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
