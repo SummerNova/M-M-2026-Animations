@@ -38,10 +38,11 @@ Material:
     m_Ints: []
     m_Floats:
     - _Debug: 0
-    - _DepthSensitivity: 1.5
-    - _EdgeSize: 1
+    - _DepthSensitivity: 10
+    - _EdgeSize: 1.5
     - _ScreenHeightRef: 1080
-    - _normalSensitivity: 0.9
+    - _UpdatesPerSecond: 4.6
+    - _normalSensitivity: 0.225
     - _steps: 10
     m_Colors:
     - _LineartColor: {r: 0, g: 0, b: 0, a: 1}
