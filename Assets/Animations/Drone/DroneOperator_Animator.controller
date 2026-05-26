@@ -20,7 +20,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: a2421d2488efa764e89b1fea9c1510a0, type: 2}
+  m_Motion: {fileID: 4781951162920444690, guid: 5bbb7bec1f35e224bbf5f10d8b197620, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -32,7 +32,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Drone_Animator
+  m_Name: DroneOperator_Animator
   serializedVersion: 6
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -60,7 +60,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -4109235178101205527}
-    m_Position: {x: 390, y: 60, z: 0}
+    m_Position: {x: 389, y: 57, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []

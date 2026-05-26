@@ -45,7 +45,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _CrosshatchRepetition: 20
+    - _CrosshatchRepetition: 18.11
     - _UpdatesPerSecond: 2
     m_Colors: []
   m_BuildTextureStacks: []
