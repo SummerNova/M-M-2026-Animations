@@ -44,16 +44,16 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 7.88333333333333
+    m_Start: 9.500000000000005
     m_ClipIn: 0
     m_Asset: {fileID: 1696326968257740634}
-    m_Duration: 4.433333333333336
+    m_Duration: 3.7499999999999947
     m_TimeScale: 1
     m_ParentTrack: {fileID: -7200775496833176432}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 1.4000000000000012
-    m_BlendOutDuration: 3.033333333333335
+    m_BlendInDuration: 1.3999999999999986
+    m_BlendOutDuration: 2.349999999999996
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -113,7 +113,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Bottom Web
   - m_Version: 1
-    m_Start: 2.8333333333333335
+    m_Start: 4.450000000000006
     m_ClipIn: 0
     m_Asset: {fileID: -5593670217222705965}
     m_Duration: 6.4499999999999975
@@ -121,8 +121,8 @@ MonoBehaviour:
     m_ParentTrack: {fileID: -7200775496833176432}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 5.049999999999995
-    m_BlendOutDuration: 1.4000000000000012
+    m_BlendInDuration: 5.049999999999997
+    m_BlendOutDuration: 1.3999999999999986
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -182,15 +182,15 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Full Web
   - m_Version: 1
-    m_Start: 9.283333333333331
+    m_Start: 10.900000000000004
     m_ClipIn: 0
     m_Asset: {fileID: 827225608959911793}
-    m_Duration: 4.716666666666669
+    m_Duration: 4.099999999999996
     m_TimeScale: 1
     m_ParentTrack: {fileID: -7200775496833176432}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 3.033333333333335
+    m_BlendInDuration: 2.349999999999996
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
@@ -254,13 +254,13 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -3685509399607935046}
-    m_Duration: 2.8333333333333335
+    m_Duration: 4.450000000000006
     m_TimeScale: 1
     m_ParentTrack: {fileID: -7200775496833176432}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: 1.6833333333333336
+    m_BlendOutDuration: 1.6833333333333322
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -320,7 +320,7 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Final Shot Camera
   - m_Version: 1
-    m_Start: 1.15
+    m_Start: 2.766666666666674
     m_ClipIn: 0
     m_Asset: {fileID: 1719754254439538619}
     m_Duration: 6.733333333333329
@@ -328,8 +328,8 @@ MonoBehaviour:
     m_ParentTrack: {fileID: -7200775496833176432}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: 1.6833333333333336
-    m_BlendOutDuration: 5.049999999999995
+    m_BlendInDuration: 1.6833333333333322
+    m_BlendOutDuration: 5.049999999999997
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -416,13 +416,13 @@ MonoBehaviour:
     m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: -8732591417765830743}
-    m_Duration: 6.383333333333329
+    m_Duration: 8.6
     m_TimeScale: 1
     m_ParentTrack: {fileID: -7066371723237818421}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
     m_BlendInDuration: -1
-    m_BlendOutDuration: 3.4999999999999996
+    m_BlendOutDuration: 2.6999999999999993
     m_MixInCurve:
       serializedVersion: 2
       m_Curve:
@@ -482,19 +482,37 @@ MonoBehaviour:
     m_PreExtrapolationTime: 0
     m_DisplayName: Web Pos 1
   - m_Version: 1
-    m_Start: 6.383333333333329
+    m_Start: 5.9
     m_ClipIn: 0
     m_Asset: {fileID: -1608677957552519429}
-    m_Duration: 7
-    m_TimeScale: 1
+    m_Duration: 8.95
+    m_TimeScale: 0.7178362913096693
     m_ParentTrack: {fileID: -7066371723237818421}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
-    m_BlendInDuration: -1
+    m_BlendInDuration: 2.6999999999999993
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -532,57 +550,6 @@ MonoBehaviour:
     m_PostExtrapolationTime: Infinity
     m_PreExtrapolationTime: 0
     m_DisplayName: Web Burn
-  - m_Version: 1
-    m_Start: 2.8833333333333298
-    m_ClipIn: 0
-    m_Asset: {fileID: -6907508175289382904}
-    m_Duration: 3.4999999999999996
-    m_TimeScale: 1
-    m_ParentTrack: {fileID: -7066371723237818421}
-    m_EaseInDuration: 0
-    m_EaseOutDuration: 0
-    m_BlendInDuration: 3.4999999999999996
-    m_BlendOutDuration: -1
-    m_MixInCurve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_MixOutCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    m_BlendInCurveMode: 0
-    m_BlendOutCurveMode: 0
-    m_ExposedParameterNames: []
-    m_AnimationCurves: {fileID: 0}
-    m_Recordable: 0
-    m_PostExtrapolationMode: 1
-    m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 0
-    m_PreExtrapolationTime: 0
-    m_DisplayName: Web Pos 2
   m_Markers:
     m_Objects: []
   m_InfiniteClipPreExtrapolation: 0
@@ -603,28 +570,6 @@ MonoBehaviour:
   m_OpenClipOffsetRotation: {x: 0, y: 0, z: 0, w: 1}
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_ApplyOffsets: 0
---- !u!114 &-6907508175289382904
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
-  m_Name: AnimationPlayableAsset
-  m_EditorClassIdentifier: Unity.Timeline::UnityEngine.Timeline.AnimationPlayableAsset
-  m_Clip: {fileID: 7400000, guid: 89a02b6efd49b4e4c994387de11acdb8, type: 2}
-  m_Position: {x: 0, y: 0, z: 0}
-  m_EulerAngles: {x: 0, y: 0, z: 0}
-  m_UseTrackMatchFields: 1
-  m_MatchTargetFields: 63
-  m_RemoveStartOffset: 0
-  m_ApplyFootIK: 1
-  m_Loop: 0
-  m_Version: 1
-  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
 --- !u!114 &-5593670217222705965
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -763,11 +708,11 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 7.88333333333333
+    m_Start: 8.6
     m_ClipIn: 0
     m_Asset: {fileID: 1204213615542247223}
-    m_Duration: 5.000000000000003
-    m_TimeScale: 1.0999999999999999
+    m_Duration: 5.500000000000002
+    m_TimeScale: 1
     m_ParentTrack: {fileID: 1489197427836078164}
     m_EaseInDuration: 0
     m_EaseOutDuration: 0
@@ -829,7 +774,7 @@ MonoBehaviour:
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
-    m_PreExtrapolationTime: 7.88333333333333
+    m_PreExtrapolationTime: 8.6
     m_DisplayName: DuoCameraDolly
   m_Markers:
     m_Objects: []
@@ -905,7 +850,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 2.8333333333333335
+    m_Start: 4.450000000000006
     m_ClipIn: 0
     m_Asset: {fileID: 4497885428112966495}
     m_Duration: 8.299999999999999
@@ -971,7 +916,7 @@ MonoBehaviour:
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
-    m_PreExtrapolationTime: 2.8333333333333335
+    m_PreExtrapolationTime: 4.450000000000006
     m_DisplayName: spider_web_anim
   m_Markers:
     m_Objects: []
