@@ -54,8 +54,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Maximum: 0.148
-    - _Minimum: 0.442
+    - _Maximum: 0.784
+    - _Minimum: 1.006
     - _MinimumBlack: 0
     - _Noise_Scale: 1
     - _UseTextureBrightness: 1
